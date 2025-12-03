@@ -31,8 +31,7 @@ fn f(input: &str, num: usize) -> usize {
         .sum()
 }
 
-#[test]
-fn day3() {
+fn main() {
     println!("{}", f(include_str!("day3.txt"), 2));
     println!("{}", f(include_str!("day3.txt"), 12));
 }

@@ -63,8 +63,7 @@ fn f2(input: &str) -> u64 {
     result
 }
 
-#[test]
-fn day2() {
+fn main() {
     println!("{}", f(include_str!("day2.txt")));
     println!("{}", f2(include_str!("day2.txt")));
 }

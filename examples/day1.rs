@@ -47,8 +47,7 @@ fn f2(input: &str) -> usize {
     cnt as usize
 }
 
-#[test]
-fn day1() {
+fn main() {
     println!("{}", f(include_str!("day1.txt")));
     println!("{}", f2(include_str!("day1.txt")));
 }
